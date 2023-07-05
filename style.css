@@ -427,39 +427,3 @@ video {
   line-height: 20px;
   margin-bottom: 8px;
 }
-@media only screen and (max-width: 768px) {
-  #nav {
-    position: fixed;
-    height: 70px;
-    padding: 10px;
-    gap: 10px;
-  }
-  video{
-    height: 100%;
-    width: 100%;
-  }
-  #page1 {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #page1 h1 {
-    font-size: 70px;
-    margin-left: -25%;
-    margin-top: -40%;
-    width: 40%;
-  }
-  #page1 h2{
-    font-size: 20px;
-    width: 35%;
-    margin-left: -27%;
-    align-self: center;
-  }
-  #page1 p {
-    font-size: 14px;
-    width: 70%;
-    margin-left: -27%;
-  }
-  #page1 #arrow{
-    bottom: 0px;
-  }
-}
