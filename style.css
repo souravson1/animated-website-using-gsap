@@ -452,6 +452,11 @@ video {
     line-height: 20px;
     flex: 20px;
   }
+  #page3 > p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 80%;
+  }
   #footer{
     width: 100vw;
     gap: 0;
