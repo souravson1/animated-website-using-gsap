@@ -430,7 +430,13 @@ video {
 }
 
 @media screen and (max-width: 992px) {
+  #nav {
+    width: 100vw;
+  }
   video{
+    width: 100vw;
+  }
+  #footer{
     width: 100vw;
   }
 }
