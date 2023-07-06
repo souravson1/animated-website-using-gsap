@@ -447,13 +447,17 @@ video {
   video{
     width: 100vw;
   }
+  #page1 p{
+    width: 80%;
+    font-size: 14px;
+  }
   #green-div {
     height: 20vh;
   }
   #green-div h4{
     width: 90%;
-    line-height: 20px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 18px;
   }
   #page3 > p{
     font-size: 20px;
@@ -463,5 +467,12 @@ video {
   #footer{
     width: 100vw;
     gap: 0;
+    flex-direction: column;
+    justify-content: start;
+  }
+  #footer-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
   }
 }
