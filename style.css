@@ -376,7 +376,7 @@ video {
   scale: 1;
 }
 #footer {
-  height: 40vh;
+  height: max-content;
   width: 100%;
   background: linear-gradient(to left bottom, #00c514, #ace022);
   position: relative;
@@ -393,6 +393,12 @@ video {
   object-fit: cover;
   height: 100%;
   z-index: 0;
+}
+#footer-in{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 #f1 img {
   height: 100px;
@@ -432,11 +438,17 @@ video {
 @media screen and (max-width: 992px) {
   #nav {
     width: 100vw;
+    height: 5rem;
+    padding: 0 1rem;
+  }
+  #nav h4{
+    display: none;
   }
   video{
     width: 100vw;
   }
   #footer{
     width: 100vw;
+    gap: 2rem;
   }
 }
