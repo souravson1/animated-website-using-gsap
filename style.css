@@ -176,7 +176,7 @@ video {
   color: transparent;
   transition: all linear 0.4s;
   -webkit-text-stroke: 2px #95c11e;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
 }
 #scroller h4:hover {
   color: #95c11e;
@@ -339,7 +339,7 @@ video {
   position: absolute;
   top: -20px;
   font-weight: 900;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   color: black;
   -webkit-text-stroke: 2px #fff;
 }
@@ -394,7 +394,7 @@ video {
   height: 100%;
   z-index: 0;
 }
-#footer-in{
+#footer-in {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -442,27 +442,27 @@ video {
     height: 5rem;
     padding: 0 1rem;
   }
-  #nav h4{
+  #nav h4 {
     display: none;
   }
-  video{
+  video {
     width: 100vw;
   }
-  #page1 h1{
+  #page1 h1 {
     font-size: 60px;
   }
-  #page1 h2{
+  #page1 h2 {
     font-size: 27px;
   }
-  #page1 p{
+  #page1 p {
     width: 80%;
     font-size: 14px;
   }
-  #about-us{
+  #about-us {
     padding: 0 5px;
     /* height: 70vh; */
   }
-  #about-us img{
+  #about-us img {
     width: 47%;
   }
   #about-us-in {
@@ -474,29 +474,52 @@ video {
     margin-top: 16px;
     margin-bottom: 13px;
   }
-  .img-1{
+  .img-1 {
     order: 1;
   }
-  .img-2{
+  .img-2 {
     order: 2;
   }
   #about-us-in p {
     font-size: 1rem;
   }
+  #page2 #cards-container {
+    height: 90vh;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 70%;
+    margin-bottom: 10%;
+  }
+  #page2 #cards-container .card {
+    width: 85%;
+  }
   #green-div {
     height: 20vh;
   }
-  #green-div h4{
+  #green-div h4 {
     width: 90%;
     line-height: 30px;
     font-size: 18px;
   }
-  #page3 > p{
+  #page3 > p {
     font-size: 20px;
     line-height: 30px;
     width: 90%;
   }
-  #footer{
+  #page4 {
+    height: 60vh;
+    margin: 2rem 0;
+    flex-direction: column;
+  }
+  #page4 h1 {
+    font-size: 27px;
+    top: -25px;
+    -webkit-text-stroke: 1px #fff;
+  }
+  #page4 #box {
+    width: 70%;
+  }
+  #footer {
     width: 100vw;
     gap: 0;
     flex-direction: column;
@@ -505,7 +528,7 @@ video {
   #footer > img {
     width: 25%;
   }
-  #footer-in{
+  #footer-in {
     display: flex;
     justify-content: left;
   }
