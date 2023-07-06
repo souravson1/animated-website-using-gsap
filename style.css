@@ -196,6 +196,7 @@ video {
   padding: 0 50px;
   margin-top: 50px;
   align-items: center;
+  flex-wrap: wrap;
   position: relative;
   z-index: 10;
   justify-content: space-around;
@@ -382,7 +383,6 @@ video {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 150px;
   padding: 0 100px;
 }
@@ -395,8 +395,9 @@ video {
   z-index: 0;
 }
 #footer-in{
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -451,6 +452,15 @@ video {
     width: 80%;
     font-size: 14px;
   }
+  #about-us-in {
+    width: 95%;
+  }
+  #about-us-in h3 {
+    font-size: 2.3rem;
+  }
+  #about-us-in p {
+    font-size: 1rem;
+  }
   #green-div {
     height: 20vh;
   }
@@ -470,9 +480,11 @@ video {
     flex-direction: column;
     justify-content: start;
   }
+  #footer > img {
+    width: 25%;
+  }
   #footer-in{
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    justify-content: left;
   }
 }
