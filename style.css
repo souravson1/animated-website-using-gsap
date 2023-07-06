@@ -447,8 +447,13 @@ video {
   video{
     width: 100vw;
   }
+  #green-div h4{
+    width: 80%;
+    line-height: 20px;
+    flex: 20px;
+  }
   #footer{
     width: 100vw;
-    gap: 2rem;
+    gap: 0;
   }
 }
