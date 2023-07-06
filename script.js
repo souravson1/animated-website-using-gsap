@@ -21,6 +21,7 @@ h4all.forEach(function (elem) {
     })
 })
 
+
 gsap.to('#nav', {
     backgroundColor: '#000',
     height: '90px',
@@ -65,7 +66,6 @@ gsap.from('.card', {
     stagger: 0.1,
     scrollTrigger: {
         trigger: ".card",
-        scroller: 'body',
         // markers: true,
         start: 'top 70%',
         end: 'top 65%',
